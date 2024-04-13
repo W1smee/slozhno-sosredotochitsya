@@ -1,0 +1,16 @@
+:root {
+  --main_title-color: #db00ff;
+  --decore-color: #ff0070;
+  --accent-color: #ff0070;
+  --resonate-color: #000028;
+  --text-color: #f1b2ce;
+  --shadow-color_for-title: #ff0070;
+  --alpha-color: rgb(100% 0% 44% / 0.4);
+  --shadow-color_for-link: #ff0070;
+  --main-ff: 'IBM Plex Mono', sans-serif; 
+  --main-fz: 1.125rem;
+  --indent-xs: 0.625rem;
+  --indent-s: 1.25rem;
+  --indent-m: 3.125rem;
+  --indent-l: 5rem;
+}
