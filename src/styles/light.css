@@ -13,6 +13,10 @@
   background-image: url(../images/cover-image-light.png);
 }
 
+.theme_light .header__decoration {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
   
   :root {
