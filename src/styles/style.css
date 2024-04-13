@@ -20,7 +20,7 @@
 
 .header {
   display: grid;
-  grid-template-rows: 61vi 51vi 61vi;
+  grid-template-rows: 34% 29% 34%;
   block-size: 100vh;
   min-block-size: 668px;
 }
@@ -28,7 +28,7 @@
 @media (width >= 768px) {
   
   .header {
-    grid-template-rows: 57.5vi 13vi 57.5vi;
+    grid-template-rows: 43% 10% 43%;
     min-block-size: 1024px;
   }
 }
@@ -36,7 +36,7 @@
 @media (width >=1024px) {
   
   .header {
-    grid-template-rows: 29vi 13vi 29vi;
+    grid-template-rows: 39% 17% 39%;
     min-block-size: 768px;
   }
 }
@@ -238,8 +238,7 @@
 }
 
 .card-link:focus-visible {
-  outline: none;
-  border: 1px solid var(--text-color);
+  outline: 1px solid var(--text-color);
 }
 
 .card__how-item-title {

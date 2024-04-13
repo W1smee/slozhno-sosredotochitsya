@@ -25,11 +25,8 @@
     --accent-color: #353430;
     --resonate-color: #353430;
     --text-color: #353430;
-    --shadow-color: #ff0070;
+    --shadow-color_for-title: #ff0070;
+    --shadow-color_for-link: #ff8dcb;
     --alpha-color: rgb(21% 20% 19% / 0.4);
-  }
-
-  .header__decoration {
-    display: none;
   }
 }
