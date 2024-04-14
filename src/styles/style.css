@@ -146,7 +146,7 @@
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
+  outline: var(--accent-color) solid 1px;
   pointer-events: none;
 }
 
@@ -201,8 +201,8 @@
 
 .cards {
   display: grid;
-  row-gap: 50px;
-  margin-block-start: 30px;
+  row-gap: var(--indent-m);
+  margin-block-start: 1.88rem;
 }
 
 .title-style {
@@ -352,18 +352,13 @@
   .card__what {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-auto-flow: column;
     column-gap: var(--indent-s);
   }
 
-  .card__what-block {
-    grid-row: 2/3;
-  }
-
   .card__what-title {
-    grid-column: 1/2;
+    grid-column: span 3;
     grid-row: 1/2;
-    inline-size: auto;
+    inline-size: 18.75rem;
   }
 
   .card__what-subtitle {
